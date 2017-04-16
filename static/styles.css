@@ -15,8 +15,9 @@ body {
 p {
 	font-family: "Muli", sans-serif;
 	color: rgb(167,205,189);
-
+	font-weight: 700;
 }
+
 /*Nav styles*/
 .navbar-inverse {
 	background-color: rgba(0,0,0,0);
@@ -24,6 +25,7 @@ p {
 }
 .navbar-inverse .navbar-nav>li>a {
 	color: rgb(167,205,189);
+	font-family: "Muli", sans-serif;
 }
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:active, .navbar-inverse .navbar-nav>li>a:focus{
 	color: rgb(211, 255, 237);
@@ -31,6 +33,7 @@ p {
 
 /*Cover style*/
 .cover {
+	margin-top: -100px;
 	background: rgb(88,111,124);
 	background-size: cover;
 	width: 100%;
@@ -62,7 +65,11 @@ section {
 	padding: 20px 50px;
 }
 .biocol > h4, p {
-	display:inline-block;
+	display:inline;
+	line-height: 2.37em;
+}
+#biography > p {
+	line-height: 2em;
 }
 #dskills {
 	text-align: right;
@@ -78,13 +85,14 @@ section {
 	padding-top: 5px;
 } 
 .bio {
-	margin-top: 10%;
+	margin-top: -30px;
 }
 #biography  > p {
 	font-size: 2em;
 }
 #cskills > h4 {
 	font-size: 14px;
+	font-weight: bold;
 }
 .contactcovercol {
 	
@@ -100,3 +108,45 @@ section {
 	text-decoration: none;
 	color: rgb(211, 255, 237);
 }
+
+/*Responsive*/
+.navbar-toggle, .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border: none;
+}
+.navbar-toggle, .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+	background: none;
+}
+
+ @media only screen and (max-width : 768px) {
+    
+	.covertext {
+		padding: 15px;
+	}
+	#skills {
+		padding: 0;
+	}
+	.biocol {
+		height: 410px;
+		padding: 15px;	
+	}
+	.biocol > h4, p {
+		margin: 2px;
+	}
+	#cskills > h4, p {
+		margin: 3px;
+	}
+	.biocol > h4 {
+		font-weight: 700;
+		font-style: italic;
+	}
+}
+
+
+
+
+
+
+
+
+
