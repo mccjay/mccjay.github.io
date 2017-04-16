@@ -1,0 +1,102 @@
+html,
+body,
+.cover {
+	height: 100%;
+}
+#other, #other>body {
+	max-height: 100%;
+	height: auto;
+}
+body {
+	background: rgb(88,111,124);
+	background-size: cover;
+	width: 100%;
+}
+p {
+	font-family: "Muli", sans-serif;
+	color: rgb(167,205,189);
+
+}
+/*Nav styles*/
+.navbar-inverse {
+	background-color: rgba(0,0,0,0);
+	border: none;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: rgb(167,205,189);
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:active, .navbar-inverse .navbar-nav>li>a:focus{
+	color: rgb(211, 255, 237);
+}
+
+/*Cover style*/
+.cover {
+	background: rgb(88,111,124);
+	background-size: cover;
+	width: 100%;
+	display: table;
+}
+.covertext {
+	display: table-cell;
+	text-align: center;
+	font-family: "Muli", sans-serif;
+	color: rgb(167,205,189);
+	vertical-align: middle;
+}
+.covertext > h1 {
+	font-size: 4em;
+}
+
+/*Bio styles*/
+section {
+	padding: 0 50px;
+}
+#skills{
+	margin: 50px;	
+}
+.border {
+	border: 2px solid rgb(167,205,189);
+	 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 -3px 6px rgba(0,0,0,0.23);
+}
+.biocol {
+	padding: 20px 50px;
+}
+.biocol > h4, p {
+	display:inline-block;
+}
+#dskills {
+	text-align: right;
+	background-color: #333;
+}
+#dskills, #design {
+	color: rgb(167,205,189);
+}
+#cskills > p, h3 {
+	color: rgb(51,51,51);
+}
+#dskills > p:first-of-type{
+	padding-top: 5px;
+} 
+.bio {
+	margin-top: 10%;
+}
+#biography  > p {
+	font-size: 2em;
+}
+#cskills > h4 {
+	font-size: 14px;
+}
+.contactcovercol {
+	
+	text-align: center;
+}
+.contactcovercol > a{
+	text-decoration: none;
+	color: rgb(167,205,189);
+	font-size: 3em;
+	text-align: center;
+}
+.contactcovercol >  a:hover, a:focus, a:active {
+	text-decoration: none;
+	color: rgb(211, 255, 237);
+}
