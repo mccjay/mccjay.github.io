@@ -28,18 +28,18 @@ p {
 	padding: 15px;
 	line-height: 2em;
 }
-.biocol > h4 {
+.biocol > h3 {
 	font-size: 14px;
 	font-weight: 700;
 }
-.biocol > p {
-	font-weight: 300;
+.ast {
+	color: rgb(167,205,189);
 }
 .skillcat {
 	padding: 0;
 	font-size: 1em;
 }
-#cskills > p, h4 {
+#cskills > p, h3 {
 	color: #333;
 	display: inline;
 }
@@ -103,12 +103,15 @@ section {
 	height: 168px;
 }
 
-#biography > p {
+.biocol > p {
 	line-height: 2em;
 }
 #dskills {
 	text-align: right;
 	background-color: #333;
+}
+#cskills > h4 {
+	color: #333;
 }
 #dskills, .design, .desswitch {
 	color: rgb(167,205,189);
