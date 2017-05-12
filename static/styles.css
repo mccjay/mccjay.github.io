@@ -97,10 +97,12 @@ section {
 .border {
 	border: 2px solid rgb(167,205,189);
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 -3px 6px rgba(0,0,0,0.23);
+	margin-bottom: 50px;
 }
 
 #biography {
 	height: 168px;
+	margin-left: 25px;
 }
 
 .biocol > p {
