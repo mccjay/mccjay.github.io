@@ -89,10 +89,10 @@ p {
 
 /*Bio styles*/
 section {
-	padding: 0 50px;
+	/*padding: 0 50px;*/
 }
 #skills{
-	margin: 50px;
+	margin: 0 50px;
 }
 .border {
 	border: 2px solid rgb(167,205,189);
@@ -154,9 +154,6 @@ section {
 
 	.covertext {
 		padding: 15px;
-	}
-	#skills {
-		padding: 0 50px;
 	}
 	.biocol {
 		min-height: 10vh;
