@@ -160,17 +160,14 @@ section {
 
  @media only screen and (min-width : 769px) {
 
-	.covertext {
+	#other .covertext {
 		padding: 15px;
 	}
-	.biocol {
+	#other .biocol {
 		min-height: 10vh;
 		padding: 20px 50px;
 	}
-	ul.nav {
-		visibility: hidden;
-	}
-	.btnmen {
+	#other .btnmen {
 		float: right!important;
 		line-height: 20px;
 		margin-right: -15px;
