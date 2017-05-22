@@ -62,7 +62,11 @@ p {
 	font-family: "Muli", sans-serif;
 }
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:active, .navbar-inverse .navbar-nav>li>a:focus{
-	color: rgb(211, 255, 237);
+	/*color: rgb(211, 255, 237);*/
+	text-decoration: none;
+	font-style: italic;
+	/*color: rgb(211, 255, 237);*/
+	color: #333;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
 	background-color: rgb(167,205,189);
@@ -138,7 +142,9 @@ section {
 }
 .contactcovercol >  a:hover, a:focus, a:active {
 	text-decoration: none;
-	color: rgb(211, 255, 237);
+	font-style: italic;
+	/*color: rgb(211, 255, 237);*/
+	color: #333;
 }
 
 
@@ -160,6 +166,14 @@ section {
 	.biocol {
 		min-height: 10vh;
 		padding: 20px 50px;
+	}
+	ul.nav {
+		visibility: hidden;
+	}
+	.btnmen {
+		float: right!important;
+		line-height: 20px;
+		margin-right: -15px;
 	}
 }
 
