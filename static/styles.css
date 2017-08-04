@@ -1,51 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200|Raleway:100|Lato:100,400');
+
 html,
 body,
 .cover {
+	max-height: 100vh;
 	height: 100%;
 }
-#other, #other>body {
-	max-height: 100%;
-	height: auto;
-}
+
 body {
-	background: rgb(88,111,124);
+	background: #2F486F;
 	background-size: cover;
-	width: 100%;
+	max-width: 100vw;
 }
 p {
-	font-family: "Muli", sans-serif;
-	color: rgb(167,205,189);
-	font-weight: 300;
+	font-family: "Lato", sans-serif;
+	color: #F4F3F7;
+	font-weight: 100;
 }
 .covertext {
 		padding: 15px;
-	}
+}
 #skills {
 	padding: 0;
+	margin: 50px;
+
 }
 .biocol {
-	min-height: 50vh;
+	
 	padding: 15px;
 	line-height: 2em;
 }
-.biocol > h3 {
-	font-size: 14px;
-	font-weight: 700;
+.biocol h3 {
+	font: 400 14px 'Lato', sans-serif;
+
+}
+#biohead {
+	font: 100 2rem 'Lato', sans-serif;
 }
 .ast {
-	color: rgb(167,205,189);
+	color: #F4F3F7;
 }
 .skillcat {
 	padding: 0;
 	font-size: 1em;
 }
-#cskills > p, h3 {
-	color: #333;
+
+#cskills  p, h3 {
+
 	display: inline;
 }
 
 .development {
-	color: #333;
+	color: #F4F3F7;
 }
 
 .fa:hover, .fa:focus {
@@ -53,29 +59,27 @@ p {
 }
 
 /*Nav styles*/
-.navbar-inverse {
-	background-color: rgba(0,0,0,0);
-	border: none;
-}
-.navbar-inverse .navbar-nav>li>a {
-	color: rgb(167,205,189);
-	font-family: "Muli", sans-serif;
-}
-.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:active, .navbar-inverse .navbar-nav>li>a:focus{
-	/*color: rgb(211, 255, 237);*/
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus{
+
 	text-decoration: none;
 	font-style: italic;
-	/*color: rgb(211, 255, 237);*/
-	color: #333;
+	color: #F4F3F7;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-	background-color: rgb(167,205,189);
+	background-color: #789CB5;
 }
-
+.nav-link {
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 200;
+	color: #789CB5;
+}
 /*Cover style*/
 .cover {
 	margin-top: -100px;
-	background: rgb(88,111,124);
+	background: #2F486F;;
 	background-size: cover;
 	width: 100%;
 	display: table;
@@ -84,43 +88,44 @@ p {
 	display: table-cell;
 	text-align: center;
 	font-family: "Muli", sans-serif;
-	color: rgb(167,205,189);
+	color: #789CB5;
 	vertical-align: middle;
 }
-.covertext > h1 {
-	font-size: 4em;
-}
 
-/*Bio styles*/
-section {
-	/*padding: 0 50px;*/
-}
-#skills{
-	margin: 0 50px;
-}
+
 .border {
-	border: 2px solid rgb(167,205,189);
+	border: 2px solid #F4F3F7;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 -3px 6px rgba(0,0,0,0.23);
 	margin-bottom: 50px;
 }
 
 #biography {
-	height: 168px;
+	height: auto;
 	margin-left: 25px;
 }
-
+h4 {
+	font: 300 'Lato', sans-serif;
+}
 .biocol > p {
 	line-height: 2em;
+	font-size: 14px;
 }
 #dskills {
 	text-align: right;
-	background-color: #333;
+	
 }
-#cskills > h4 {
-	color: #333;
+#cskills {
+	background-color: #9EADC8;
+	padding-bottom: 30px;
+}
+#cskills  p, h3, h4 {
+	color: #2F486F;
+	}
+#design {
+	color: #F4F3F7;
 }
 #dskills, .design, .desswitch {
-	color: rgb(167,205,189);
+	color: #F4F3F7;
 }
 #dskills > p:first-of-type{
 	padding-top: 5px;
@@ -136,7 +141,7 @@ section {
 }
 .contactcovercol > a{
 	text-decoration: none;
-	color: rgb(167,205,189);
+	color: #789CB5;
 	font-size: 3em;
 	text-align: center;
 }
@@ -144,7 +149,7 @@ section {
 	text-decoration: none;
 	font-style: italic;
 	/*color: rgb(211, 255, 237);*/
-	color: #333;
+	color: #F4F3F7;
 }
 
 
@@ -158,51 +163,42 @@ section {
 	background: none;
 }
 
- @media only screen and (min-width : 769px) {
-
-	#other .covertext {
-		padding: 15px;
-	}
-	#other .biocol {
-		min-height: 10vh;
-		padding: 20px 50px;
-	}
-	#other .btnmen {
-		float: right!important;
-		line-height: 20px;
-		margin-right: -15px;
-	}
+ @media only screen and (min-width : 1200px) {
+ 	.biocol {
+	min-height: 50vh;
 }
-
-/*Typed.js */
-.typed-cursor{
-	display: none;
 }
-
 #name {
-	font-size: 4em;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
 	margin: .67em 0;
-	font-family: inherit;
-    font-weight: 500;
+	text-transform: uppercase;
+    font-weight: 100;
     line-height: 1.1;
-    color: inherit;
+    color: #F4F3F7;
     display: block;
     box-sizing: border-box;
 }
 
 #subtitle_one {
 	font-size: 24px;
-	color: rgb(51,51,51);
+	color: #789CB5;
 	margin-top: 20px;
     margin-bottom: 10px;
-    font-family: inherit;
-    font-weight: 500;
+    font-family: 'Lato', serif;
+    font-weight: 100;
     line-height: 1.1;
     display: block;
     box-sizing: border-box;
    
 }
 
-
-
+ @media only screen and (min-width : 576px) {
+ 	 .display-5 {
+    font-size: 56px;
+  }
+  .biocol h3 p {
+	font-size: 16px;
+}
+}
 
