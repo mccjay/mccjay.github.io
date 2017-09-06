@@ -86,7 +86,8 @@ body {
 .covertext {
 	display: table-cell;
 	text-align: center;
-	font-family: "Muli", sans-serif;
+	font-family: "Lato", sans-serif;
+	font-weight: 100;
 	color: #789CB5;
 	vertical-align: middle;
 }
