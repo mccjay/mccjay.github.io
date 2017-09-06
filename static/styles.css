@@ -91,7 +91,9 @@ body {
 	color: #789CB5;
 	vertical-align: middle;
 }
-
+.covertext h1 {
+	font-size: 1em;
+}
 
 .border {
 	border: 2px solid #F4F3F7;
