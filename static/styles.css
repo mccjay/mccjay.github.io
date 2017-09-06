@@ -6,7 +6,9 @@ body,
 	max-height: 100vh;
 	height: 100%;
 }
-
+h1 {font-family: "Lato", sans-serif;
+	color: #F4F3F7;
+	font-weight: 100;}
 body {
 	background: #2F486F;
 	background-size: cover;
