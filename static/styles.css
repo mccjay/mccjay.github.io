@@ -39,7 +39,8 @@ body {
 	font: 100 2rem 'Lato', sans-serif;
 }
 .ast {
-	color: #F4F3F7;
+	color: #2F486F;
+	font-weight: 400;
 }
 .skillcat {
 	padding: 0;
