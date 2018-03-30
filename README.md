@@ -1,1 +1,0 @@
-Personal website, located [here](http://mccjay.github.io)
