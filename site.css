@@ -3,17 +3,52 @@ body {
     background-color: #D57B85;
     color: #f7f8f9;
 }
+.no-dec {
+    text-decoration: none;
+    color: inherit;
+}
 .container {
-    display: flex;
     height: 100vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .email {
-    text-decoration: none;
     font-size: 32px;
 }
 h1 {
     margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.no-list-style {
+    list-style: none;
+}
+
+hr {
+    border-style: solid;
+    width: 10em;
+    margin: 0.5em 0;
+}
+
+section {
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.name-link {
+    border-bottom: 1px dotted #fff;
+    padding: 0.25em;
+}
+
+.name-link:hover {
+    border-bottom: 1px solid #fff;
+    
 }
