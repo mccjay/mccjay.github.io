@@ -4,13 +4,16 @@ body {
     background-color: #D57B85;
     color: #f7f8f9;
     margin: 0.5em;
+    
+
 }
 .no-dec {
     text-decoration: none;
     color: inherit;
 }
 .container {
-    height: calc(100vh - 32px);
+    height: 80vh;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -84,4 +87,8 @@ li {
     .values li:first-child {
         margin-bottom: 0;
     }
+}
+.comp-logo {
+    height: 2em; 
+    color: #fff;
 }
