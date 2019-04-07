@@ -3,13 +3,14 @@ body {
     font-family: 'Ubuntu Mono', monospace;
     background-color: #D57B85;
     color: #f7f8f9;
+    margin: 0.5em;
 }
 .no-dec {
     text-decoration: none;
     color: inherit;
 }
 .container {
-    height: calc(100vh - 16px);
+    height: calc(100vh - 32px);
     flex-direction: column;
     justify-content: center;
     align-items: center;
