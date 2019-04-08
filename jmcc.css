@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Ubuntu Mono', monospace;
     background-color: #D57B85;
@@ -37,7 +36,8 @@ ul {
     padding-left: 1em;
 }
 
-.no-list-style {
+ul,
+li {
     list-style: none;
 }
 
@@ -87,8 +87,4 @@ li {
     .values li:first-child {
         margin-bottom: 0;
     }
-}
-.comp-logo {
-    height: 2em; 
-    color: #fff;
 }
