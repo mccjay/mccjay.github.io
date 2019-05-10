@@ -118,6 +118,10 @@ section {
     float: left;
 }
 
+.index-container {
+    height: 90%;
+}
+
 
 @media screen and (min-width: 420px) {
     .container {
