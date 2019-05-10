@@ -1,90 +1,102 @@
 body {
-    font-family: 'Ubuntu Mono', monospace;
-    background-color: #D57B85;
-    color: #f7f8f9;
-    margin: 0.5em;
-    
-
+  font-family: "Ubuntu Mono", monospace;
+  background-color: #d57b85;
+  color: #f7f8f9;
+  height: 100vh;
 }
 .no-dec {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 .container {
-    height: 80vh;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .email {
-    font-size: 32px;
+  font-size: 32px;
 }
 h1 {
-    margin: 0;
+  margin: 0;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .flex-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 ul {
-    padding-left: 1em;
+  padding-left: 1em;
 }
 
 ul,
 li {
-    list-style: none;
+  list-style: none;
 }
 
 hr {
-    border-style: solid;
-    width: 10em;
-    margin: 0.5em 0;
+  border-style: solid;
+  width: 10em;
+  margin: 0.5em 0;
 }
 
 section {
-    width: 100%;
-    justify-content: space-evenly;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 .name-link {
-    border-bottom: 1px dotted #fff;
-    padding: 0.25em;
-}
-
-li {
-    font-size: 0.83em;
+  border-bottom: 1px dotted #fff;
+  padding: 0.25em;
 }
 
 .name-link:hover {
-    border-bottom: 1px solid #fff;
-    
-}
-.go-to-about {
-    float: right;
-}
-.nav-anchor:hover {
-    text-decoration: underline;
+  border-bottom: 1px solid #fff;
 }
 
+
 .values li:first-child {
-    margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 @media screen and (min-width: 576px) {
-    section {
-        width: 50%;
-    }
+  section {
+    width: 50%;
+  }
 
-    ul {
-        padding-left: 2.5em;
-    }
-    .values li:first-child {
-        margin-bottom: 0;
-    }
+  ul {
+    padding-left: 2.5em;
+  }
+  .values li:first-child {
+    margin-bottom: 0;
+  }
+}
+
+.avatar-holder {
+  min-width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 1em;
+}
+
+.avatar {
+  display: inline;
+  margin: 0 auto;
+
+  vertical-align: middle;
+}
+
+.about {
+  align-items: center;
+}
+
+.go-to:hover {
+    text-decoration: underline;
 }
