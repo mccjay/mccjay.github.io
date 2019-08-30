@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+  max-height: 100%;
 }
 
 body {
@@ -17,6 +18,10 @@ body {
 
 button:focus {
   outline: none;
+}
+
+.about-me-header {
+    display: none;
 }
 
 @keyframes colorchange {
@@ -142,6 +147,7 @@ section {
 }
 .name {
   margin-right: 10px;
+  font-family: monospace;
 }
 .term-cursor {
   width: 1em;
@@ -208,6 +214,11 @@ section {
   height: 90%;
 }
 
+.container {
+    height: 80vh;
+  }
+
+  
 @media screen and (min-width: 420px) {
   .container {
     height: 90vh;
@@ -215,6 +226,11 @@ section {
   .about {
     flex-direction: row;
   }
+
+    .about-me-header {
+        display: block;
+    }
+
 }
 
 @media screen and (min-width: 768px) {
