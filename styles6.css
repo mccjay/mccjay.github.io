@@ -5,33 +5,75 @@ body {
 
 body {
   font-family: "Work Sans", sans-serif;
-  -webkit-animation: colorchange 40s;
-  animation: colorchange 40s;
-  background: #B0B8FF;
+  -webkit-animation: gradientchange 15s ease infinite;
+  animation: gradientchange 15s ease infinite;
+  background: linear-gradient(-45deg, #3494e6, #ec6ead, #ff9472);
+
+  background-size: 400% 400%;
+
   color: #f7f8f9;
   font-weight: 300;
 }
 
-@keyframes colorchange
-    {
-      0%   {background: #D57B85;}
-      20% {background: #083D77;}
-      40% {background: #E5D9F2; color: #778899;}
-      60% {background: #d57b85; color: #f7f8f9;}
-      80% {background: #DA4167;}
-      100%  {background: #B0B8FF;}
-   
-    }
+button:focus {
+  outline: none;
+}
 
-    @-webkit-keyframes colorchange
-    {
-        0%   {background: #D57B85;}
-      20% {background: #F7AEF8;}
-      40% {background: #B388EB;}
-      60% {background: #d57b85;}
-      80% {background: #8093F1;}
-      100%  {background: #B0B8FF;}
-    }
+@keyframes colorchange {
+  0% {
+    background: #d57b85;
+  }
+  20% {
+    background: #083d77;
+  }
+  40% {
+    background: #e5d9f2;
+    color: #778899;
+  }
+  60% {
+    background: #d57b85;
+    color: #f7f8f9;
+  }
+  80% {
+    background: #da4167;
+  }
+  100% {
+    background: #b0b8ff;
+  }
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    background: #d57b85;
+  }
+  20% {
+    background: #f7aef8;
+  }
+  40% {
+    background: #b388eb;
+  }
+  60% {
+    background: #d57b85;
+  }
+  80% {
+    background: #8093f1;
+  }
+  100% {
+    background: #b0b8ff;
+  }
+}
+
+@keyframes gradientchange {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
 h1,
 h2,
@@ -86,12 +128,38 @@ section {
 }
 
 .name-link {
-  border-bottom: 1px dotted #fff;
+  /* border-bottom: 1px dotted #fff; */
   padding: 0.25em;
 }
 
-.name-link:hover {
-  border-bottom: 1px solid #fff;
+.name-link {
+  display: flex;
+  align-items: center;
+}
+.name,
+.term-cursor {
+  display: inline-block;
+}
+.name {
+  margin-right: 10px;
+}
+.term-cursor {
+  width: 1em;
+  height: 1.8em;
+  background: #fff;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .values li:first-child {
@@ -142,7 +210,7 @@ section {
 
 @media screen and (min-width: 420px) {
   .container {
-    height: 90%;
+    height: 90vh;
   }
   .about {
     flex-direction: row;
