@@ -1,3 +1,6 @@
+/* im just gonna keep incrementing the integer on this css file
+ because simplicty and Cache invalidation is hard.
+ */
 html,
 body {
   height: 100%;
@@ -248,4 +251,13 @@ section {
 .about-body p,
 .about-body li {
   font-size: 1.25em;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  color: #fff;
 }
