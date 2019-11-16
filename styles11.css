@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap");
+
 html,
 body {
   height: 100%;
@@ -5,7 +7,7 @@ body {
 }
 
 body {
-  font-family: "Work Sans", sans-serif;
+  font-family: monospace;
   -webkit-animation: gradientchange 15s ease infinite;
   animation: gradientchange 15s ease infinite;
   background: linear-gradient(-45deg, #3494e6, #ec6ead, #ff9472);
@@ -21,7 +23,7 @@ button:focus {
 }
 
 .about-me-header {
-    display: none;
+  display: none;
 }
 
 @keyframes colorchange {
@@ -149,6 +151,7 @@ section {
   margin-right: 10px;
   font-family: monospace;
 }
+
 .term-cursor {
   width: 1em;
   height: 1.8em;
@@ -157,15 +160,15 @@ section {
 }
 
 @keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .values li:first-child {
@@ -215,10 +218,9 @@ section {
 }
 
 .container {
-    height: 80vh;
-  }
+  height: 80vh;
+}
 
-  
 @media screen and (min-width: 420px) {
   .container {
     height: 90vh;
@@ -227,10 +229,9 @@ section {
     flex-direction: row;
   }
 
-    .about-me-header {
-        display: block;
-    }
-
+  .about-me-header {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -244,4 +245,9 @@ section {
   .values li:first-child {
     margin-bottom: 0;
   }
+}
+
+.about-body p,
+.about-body li {
+  font-size: 1.25em;
 }
