@@ -263,8 +263,8 @@ footer a {
 }
 
 /* sry this isnt mobile-first */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   body {
     padding: 10px;
   }
-}
+} */
