@@ -21,6 +21,10 @@ button:focus {
   outline: none;
 }
 
+#about-me {
+  margin-top: -25vh;
+}
+
 .about-me-header {
   display: none;
 }
@@ -100,6 +104,9 @@ h4 {
   justify-content: center;
   align-items: center;
 }
+.about-body .container {
+}
+
 .email {
   font-size: 32px;
 }
