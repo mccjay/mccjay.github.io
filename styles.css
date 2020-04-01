@@ -184,6 +184,13 @@ section {
   section {
     width: 50%;
   }
+  .social-row {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .flex-col {
+    align-items: center;
+  }
 
   ul {
     padding-left: 2.5em;
@@ -220,15 +227,12 @@ footer a {
 }
 
 .social-row {
-  display: flex;
   width: 50%;
-  justify-content: space-evenly;
   margin-top: 3em;
 }
 
 .flex-col {
   flex-direction: column;
-  align-items: center;
 }
 .twitter:hover {
   color: rgb(29, 161, 242);
