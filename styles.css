@@ -167,6 +167,10 @@ section {
   height: 80vh;
 }
 
+.twitter {
+  margin-right: 1em;
+}
+
 @media screen and (min-width: 420px) {
   .container {
     height: 90vh;
@@ -185,8 +189,10 @@ section {
     width: 50%;
   }
   .social-row {
-    display: flex;
     justify-content: space-evenly;
+  }
+  .twitter {
+    margin-right: 0;
   }
   .flex-col {
     align-items: center;
@@ -227,6 +233,7 @@ footer a {
 }
 
 .social-row {
+  display: flex;
   width: 50%;
   margin-top: 3em;
 }
@@ -234,6 +241,7 @@ footer a {
 .flex-col {
   flex-direction: column;
 }
+
 .twitter:hover {
   color: rgb(29, 161, 242);
 }
