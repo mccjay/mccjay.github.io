@@ -189,14 +189,16 @@ section {
     width: 50%;
   }
   .social-row {
-    justify-content: space-evenly;
+    justify-content: flex-start;
   }
+  .social-row > a {
+      margin-right: 1em;
+  }
+
   .twitter {
     margin-right: 0;
   }
-  .flex-col {
-    align-items: center;
-  }
+  
 
   ul {
     padding-left: 2.5em;
