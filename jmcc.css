@@ -166,9 +166,8 @@ section {
 .container {
   height: 80vh;
 }
-
-.twitter {
-  margin-right: 1em;
+.mb-0 {
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 420px) {
@@ -192,13 +191,12 @@ section {
     justify-content: flex-start;
   }
   .social-row > a {
-      margin-right: 1em;
+    margin-right: 1em;
   }
 
   .twitter {
     margin-right: 0;
   }
-  
 
   ul {
     padding-left: 2.5em;
@@ -232,6 +230,7 @@ footer a {
   font-size: 20px;
   color: #000;
   text-decoration: none;
+  margin-right: 1em;
 }
 
 .social-row {
@@ -253,5 +252,5 @@ footer a {
 }
 
 .instagram:hover {
-color: #d6249f;
+  color: #d6249f;
 }
