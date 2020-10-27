@@ -211,6 +211,11 @@ section {
   font-size: 1.25em;
 }
 
+.about h3 {
+  font-size: 1.4em;
+  margin-top: 0.5em;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -220,12 +225,6 @@ footer a {
   color: #fff;
 }
 
-/* sry this isnt mobile-first */
-/* @media (max-width: 600px) {
-  body {
-    padding: 10px;
-  }
-} */
 .social-img {
   font-size: 20px;
   color: #000;
