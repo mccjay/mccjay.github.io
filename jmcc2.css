@@ -85,7 +85,8 @@ section {
   padding: 0.25em;
 }
 
-.name-link {
+.name-link,
+.comp-link {
   display: flex;
   align-items: center;
 }
